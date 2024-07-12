@@ -5,7 +5,7 @@ import mysql.connector
 conn = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="Lights@123",
+    password="",
     database="HMS"
 )
 
@@ -89,7 +89,7 @@ class dept:
         conn = mysql.connector.connect(
             host="localhost",
             user="root",
-            password="Lights@123",
+            password="",
             database="HMS"
         )
         cursor = conn.cursor()
@@ -185,7 +185,7 @@ class U_DEP:
         conn = mysql.connector.connect(
             host="localhost",
             user="root",
-            password="Lights@123",
+            password="",
             database="HMS"
         )
         cursor = conn.cursor()
@@ -238,7 +238,7 @@ class D_DEP:
         conn = mysql.connector.connect(
             host="localhost",
             user="root",
-            password="Lights@123",
+            password="",
             database="HMS"
         )
         cursor = conn.cursor()
