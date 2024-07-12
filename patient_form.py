@@ -7,7 +7,7 @@ import mysql.connector
 conn = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="Lights@123",
+    password="",
     database="HMS"
 )
 
@@ -145,7 +145,7 @@ class Patient:
             conn = mysql.connector.connect(
                 host="localhost",
                 user="root",
-                password="Lights@123",
+                password="",
                 database="HMS"
             )
             
@@ -336,7 +336,7 @@ class U_PAT:
             conn = mysql.connector.connect(
                 host="localhost",
                 user="root",
-                password="Lights@123",
+                password="",
                 database="HMS"
             )
             
@@ -407,7 +407,7 @@ class DMenu:
         conn = mysql.connector.connect(
                 host="localhost",
                 user="root",
-                password="Lights@123",
+                password="",
                 database="HMS"
             )
         global inp_d, del_pid
@@ -473,7 +473,7 @@ class SMenu:
         conn = mysql.connector.connect(
                 host="localhost",
                 user="root",
-                password="Lights@123",
+                password="",
                 database="HMS"
             )
         c1 = conn.cursor()
