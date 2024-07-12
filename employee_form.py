@@ -6,7 +6,7 @@ import mysql.connector
 conn = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="Lights@123",
+    password="",
     database="HMS"
 )
 
@@ -268,7 +268,7 @@ class U_EMP:
         conn = mysql.connector.connect(
             host="localhost",
             user="root",
-            password="Lights@123",
+            password="",
             database="HMS"
         )
         cursor = conn.cursor()
