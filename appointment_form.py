@@ -7,7 +7,7 @@ from mysql.connector import Error
 conn = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="Lights@123",
+    password="",
     database = "HMS"
 )
 #root = Tk()
@@ -98,7 +98,7 @@ class Appointment:
             conn = mysql.connector.connect(
                 host="localhost",
                 user="root",
-                password="Lights@123",
+                password="",
                 database="HMS"
             )
             cursor = conn.cursor()
@@ -169,7 +169,7 @@ class DEL_AP:
         conn = mysql.connector.connect(
         host="localhost",
         user="root",
-        password="Lights@123",
+        password="",
         database = "HMS"
         )
         cursor = conn.cursor()
