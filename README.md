@@ -1,52 +1,60 @@
 # We-Care-Hospital-Administration
-A Hospital Database Management System (DBMS) focused on the administrative side to facilitate the efficient and accurate management of patient data, billing, prescriptions, room allocations, and other critical functions in healthcare management.
 
-# Problem Statement
-The objective of this project is to develop a hospital management system that will 
-facilitate effective management of various aspects of the hospital's operations. Using 
-Tkinter, the system will provide a user-friendly graphical user interface (GUI) and 
-integrate with a MySQL database to store and retrieve relevant information.  
-The system should address the following requirements: 
+## Overview
+We-Care-Hospital-Administration is a Hospital Database Management System (DBMS) designed to streamline and optimize the administrative functions within a healthcare environment. It aims to simplify the management of critical hospital operations such as patient data, billing, room allocations, prescriptions, and staff management through an easy-to-use graphical user interface (GUI). The system integrates seamlessly with a MySQL database for data storage and retrieval, ensuring efficient and accurate handling of hospital operations.
 
-User Authentication: Implement a secure login mechanism to authenticate users, 
-including doctors, nurses, administrative staff, and other personnel. Different levels of 
-access should be granted based on user roles to ensure appropriate data privacy and 
-security. 
+## Features
+The hospital management system provides the following functionalities:
 
-Patient Management: Enable users to manage patient records, including registration, 
-appointment scheduling, medical history, and treatment details. The system should 
-support functionalities such as adding new patients, updating their information, and 
-retrieving patient data when required.
+### 1. **User Authentication**
+- Secure login mechanism to authenticate various users such as doctors, nurses, administrative staff, and other personnel.
+- Role-based access control to ensure appropriate data privacy and security, allowing different levels of access based on user roles.
 
-Room Management: Facilitate the allocation and management of hospital rooms. 
-Users should be able to assign patients to specific rooms, track room availability, and 
-manage patient transfers between rooms.  
+### 2. **Patient Management**
+- Register new patients and store their medical history, treatment details, and personal information.
+- Schedule appointments and update patient records.
+- Efficient retrieval of patient data as needed.
 
-Staff Management: Assist in managing hospital personnel, including doctors, nurses, 
-and support staff. The system should enable users to track employee information, such 
-as work schedules, shifts, department management, and role assignation.  
+### 3. **Room Management**
+- Allocate hospital rooms to patients based on availability.
+- Track room occupancy and manage patient transfers between rooms as required.
 
-Billing and Payment: Provide functionality for generating and managing patient bills, 
-tracking payments, and generating bill reports. The system should be capable of 
-integrating with billing with room rate, latest treatment fees and medicines fees.  
+### 4. **Staff Management**
+- Manage staff records, including doctors, nurses, and support staff.
+- Track staff work schedules, shifts, and departmental assignments.
 
-Database Connectivity: Establish a connection to a MySQL database to store and 
-retrieve critical information, including patient records, inventory data, staff details, 
-billing information, and other relevant data necessary for efficient hospital 
-management.  
+### 5. **Billing and Payment**
+- Generate and manage patient bills, including room rates, treatment fees, and medicine costs.
+- Track payments and generate bill reports for accounting purposes.
 
-By addressing these needs, the hospital management system will streamline 
-administrative tasks, improve patient care, and enhance overall operational efficiency 
-within the hospital environment.
+### 6. **Database Connectivity**
+- MySQL database integration for storing and retrieving critical information, including patient records, billing data, room allocations, and staff details.
+- Secure and efficient database operations to ensure data integrity and consistency.
 
-# Languages used
-1. Python  - Backend
-2. Python - Frontend
-3. SQL
+## Technology Stack
+- **Backend:** Python
+- **Frontend:** Python (Tkinter for GUI)
+- **Database:** MySQL
+- **GUI Framework:** Tkinter
 
-# Softwares used
-1. MySQL
+## Installation
+To install and run the We-Care-Hospital-Administration system, follow these steps:
 
-# GUI used
-1. Tkinter
-   
+1. Clone the repository.
+```bash
+git clone <url>
+cd <directory>
+```
+2. Install the required dependencies from the `requirements.txt` file.
+```bash
+pip install -r requirements.txt
+```
+3. Set up the MySQL database by creating a database and configuring the connection details in the `config.py` file. Run the provided SQL script to create the necessary tables.
+4. Run the application by executing `python login.py`.
+
+## Usage
+- Launch the application to access the login screen.
+- After logging in, use the various modules (Patient Management, Room Management, Staff Management, Billing, etc.) to manage hospital operations.
+
+## License
+This project is licensed under the Apache 2.0 License. See the [LICENSE](LICENSE) file for details.
