@@ -43,7 +43,7 @@ To install and run the We-Care-Hospital-Administration system, follow these step
 1. Clone the repository.
 ```bash
 git clone https://github.com/KrishnenduMR/We-Care-Hospital-Administration.git
-cd We-Care-Hospital-Administration\src
+cd We-Care-Hospital-Administration/src
 ```
 2. Install the required dependencies from the `requirements.txt` file.
 ```bash
